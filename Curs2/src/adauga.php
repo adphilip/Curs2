@@ -1,5 +1,9 @@
 <?php
+
+//conectare baza de date
 include_once 'connectare.php';
+
+
 
 if (!empty($_POST['submit'])) {
 	echo "if branch <br />";
